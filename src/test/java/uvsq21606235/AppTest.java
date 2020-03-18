@@ -5,16 +5,18 @@ import static org.junit.Assert.assertTrue;
 import org.junit.Test;
 
 /**
- * Unit test for simple App.
+ *Auteur Abdoulaye
+ *
  */
 public class AppTest 
 {
     /**
      * Rigorous Test :-)
      */
+    
+    
     @Test
-    public void shouldAnswerWithTrue()
-    {
-        assertTrue( true );
+    public void displays() {    	
+    	System.out.println("Your workout is my warm up");
     }
 }
