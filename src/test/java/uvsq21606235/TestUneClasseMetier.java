@@ -8,15 +8,12 @@ import org.junit.Test;
  *Auteur Abdoulaye
  *
  */
-public class AppTest 
+public class TestUneClasseMetier 
 {
-    /**
-     * Rigorous Test :-)
-     */
-    
     
     @Test
     public void displays() {    	
-    	System.out.println("Your workout is my warm up");
+    	uneClasseMetier cm = new uneClasseMetier();
+    	cm.uneMethodeMetier();
     }
 }
